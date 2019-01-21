@@ -1,0 +1,7 @@
+./.cproject
+./.project
+./.settings
+./Board.cfg
+./Debug
+./Release
+./NUCLEO-F103RB.xml
