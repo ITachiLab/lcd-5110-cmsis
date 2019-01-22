@@ -34,7 +34,7 @@ BL  --- To VCC through 1k1 resistor
 GND --- GND
 ```
 
-Run the code, open up terminal like **minicom** and send anything that contains **504** bytes of data. One byte is 8 vertical pixels so (504 * 8) = (48 * 84) = 4032 pixels on screen.
+Run the code, open up terminal like **minicom** and send anything that contains **504** bytes of data. One byte is 8 vertical pixels so (504 * 8) = (48 * 84) = 4032 pixels on screen. You can find example files in the root directory - `random.bin` and `zeros.bin`.
 
 For example, sending a combination like: `0x00 0x01 0x02 0x03 0x04 0xFF 0xFF` will give this effect:
 
