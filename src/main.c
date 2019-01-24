@@ -16,6 +16,7 @@
 uint8_t screen_buffer[SCREEN_BUFFER_SIZE];
 
 void delay_ms(uint16_t delay) {
+	TIM2->CNT = 0;
 	TIM2->EGR |= TIM_EGR_UG;
 
 	uint16_t clk_value = TIM2->CNT;
